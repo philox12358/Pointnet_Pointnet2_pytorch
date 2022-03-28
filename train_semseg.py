@@ -55,7 +55,7 @@ def parse_args():
 def main(args):
     def log_string(str):
         logger.info(str)
-        print(str)
+        print(str)  #尝试修改
 
     '''HYPER PARAMETER'''
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
